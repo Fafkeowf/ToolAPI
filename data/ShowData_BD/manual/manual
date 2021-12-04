@@ -1,0 +1,14 @@
+
+
+URL       -> http://GlobalTool/Tool/DataBase_mysql/ShowData_BD/ShowData_BD/core/ShowData_BD.php
+METHOD    -> POST
+TYPE DATA -> JSON
+
+DATA:
+{
+    "ip"       : "value",
+	"login"    : "value",
+	"pass"     : "value",
+	"data_base": "value",
+	"table"    : "value",
+}

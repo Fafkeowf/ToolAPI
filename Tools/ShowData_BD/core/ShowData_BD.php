@@ -10,5 +10,7 @@ $Pass     = $init_data->pass;
 $DataBase = $init_data->data_base;
 $Table    = $init_data->table;
 
+header('Content-type: application/json; charset=utf-8');
+
 echo ShowData_BD($Ip, $Login, $Pass, $DataBase, $Table);
 
